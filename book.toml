@@ -1,0 +1,14 @@
+[book]
+title = "Contigo Burrito"
+src = "src"
+authors = ["Paolo Flores"]
+language = "en"
+multilingual = false
+
+[build]
+build-dir = "book"
+create-missing = false
+
+[output.html]
+site-url = "http://contigosanmarcos.com/"
+git-repository-url = "https://github.com/burrito-project/docs"
