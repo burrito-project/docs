@@ -13,6 +13,8 @@ a `docs/` directory with the component documentation.
 
 See the [SUMMARY.md](./src/SUMMARY.md) file for the full list of sections.
 
+## Getting started
+
 Clone this repository with:
 
 ```bash
