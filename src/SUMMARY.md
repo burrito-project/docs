@@ -1,5 +1,5 @@
 # Summary
 
-[Introduction](./chapter_1.md)
+[Introduction](./introduction.md)
 
 - [Chapter 1](./chapter_1.md)
