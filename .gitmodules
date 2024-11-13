@@ -1,0 +1,12 @@
+[submodule "src/server"]
+	path = src/server
+	url = git@github.com:burrito-project/burrito-server.git
+[submodule "src/dashboard"]
+	path = src/dashboard
+	url = git@github.com:burrito-project/burrito-dashboard.git
+[submodule "src/app"]
+	path = src/app
+	url = git@github.com:burrito-project/burrito-app.git
+[submodule "src/driver"]
+	path = src/driver
+	url = git@github.com:burrito-project/burrito-driver.git

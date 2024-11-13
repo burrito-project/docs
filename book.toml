@@ -1,9 +1,11 @@
 [book]
-title = "Contigo Burrito"
+title = "Contigo Burrito Documentation"
 src = "src"
 authors = ["Paolo Flores"]
 language = "en"
 multilingual = false
+
+# Configuration docs: <https://rust-lang.github.io/mdBook/format/configuration/index.html>
 
 [build]
 build-dir = "book"
@@ -12,3 +14,10 @@ create-missing = false
 [output.html]
 site-url = "http://contigosanmarcos.com/"
 git-repository-url = "https://github.com/burrito-project/docs"
+
+[preprocessor.init-submodules]
+before = ["update-submodules"]
+command = "git submodule init"
+
+[preprocessor.update-submodules]
+command = "git submodule update"
