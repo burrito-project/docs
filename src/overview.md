@@ -1,52 +1,55 @@
 <!-- markdownlint-disable MD033 -->
 
-# Overview
+# Resumen
 
-Here is a brief overview of the Contigo Burrito project and how its components
-interact with each other. For more detailed information, refer to the specific
-documentation of each component.
+A continuación, se presenta una descripción general del proyecto Contigo Burrito y cómo
+sus componentes interactúan entre sí. Para información más detallada, consulta la
+documentación específica de cada componente.
 
-## Components
+## Componentes
 
-The project is divided into four main components, each with its own repository:s
+El proyecto está dividido en cuatro componentes principales, cada uno con su propio
+repositorio:
 
 <table>
   <thead>
     <tr>
-      <th>Repository</th>
-      <th>Description</th>
-      <th>Technologies</th>
+      <th>Repositorio</th>
+      <th>Descripción</th>
+      <th>Tecnologías</th>
     </tr>
   </thead>
 <tbody>
   <tr>
     <td><a href="https://github.com/burrito-project/burrito-app">burrito-app</a></td>
-    <td>The app that students use to check the bus status.</td>
+    <td>La app que los estudiantes usan para verificar el estado del autobús.</td>
     <td>Flutter, Riverpod, Google Maps</td>
   </tr>
   <tr>
     <td><a href="https://github.com/burrito-project/burrito-server">burrito-server</a></td>
-    <td>REST API server responsible</td>
+    <td>Servidor REST API responsable.</td>
     <td>Rust, Rocket</td>
   </tr>
   <tr>
     <td><a href="https://github.com/burrito-project/burrito-driver">burrito-driver</a></td>
-    <td>Bus driver app that sends the location data.</td>
+    <td>Aplicación para el conductor del autobús que envía datos de ubicación.</td>
     <td>Flutter, Geolocator</td>
   </tr>
   <tr>
     <td><a href="https://github.com/burrito-project/burrito-dashboard">burrito-dashboard</a></td>
-    <td>Admin dashboard to interact with the system.</td>
+    <td>Panel de administración para interactuar con el sistema.</td>
     <td>Vite, React</td>
   </tr>
 </tbody>
 </table>
 
-Note that these are private repositores, so you may need to request access to them.
+Ten en cuenta que estos son repositorios privados, por lo que es posible que
+necesites solicitar acceso a ellos.
 
-## Architecture
+## Arquitectura
 
-The project follows a client-server architecture, where the server and driver are responsible for
-managing the data and the clients are responsible for displaying it.
+El proyecto sigue una arquitectura cliente-servidor, donde el servidor y la aplicación
+del conductor son responsables de gestionar los datos y los clientes se encargan
+de mostrarlos.
 
-![Project architecture](./assets/architecture_diagram.png)
+![Arquitectura del proyecto](./assets/architecture_diagram.png)

@@ -1,28 +1,30 @@
 <!-- markdownlint-disable MD033 -->
 
-# Introduction
+# Introducción
 
-Contigo Burrito is a project that aims to achieve real-time tracking of the UNMMS internal
-transport bus (*or buses!*) to make students' lives easier, as well as:
+Contigo Burrito es un proyecto que busca lograr el seguimiento en tiempo real
+del autobús (¡o autobuses!) de transporte interno de la UNMSM para facilitar
+la vida de los estudiantes. Además, incluye las siguientes características:
 
-- In-app notifications in the form of banners, popups and posts.
-- Real-time tracking of the bus location, status and device battery.
-- App versioning and forcing client updates.
-- Bus stops and route information, including the distance to the next stop.
-- User sessions (for analytics) and authentication (for protected resources).
-- Feature flags for both server and clients.
-- Multimedia upload integration with [Cloudinary](https://cloudinary.com/).
+- Notificaciones en la aplicación en forma de banners, ventanas emergentes y publicaciones.
+- Seguimiento en tiempo real de la ubicación del autobús, su estado y el nivel
+  de batería del dispositivo.
+- Versionado de la aplicación y forzar actualizaciones en los clientes.
+- Información de paradas y rutas, incluyendo la distancia a la próxima parada.
+- Sesiones de usuario (para analíticas) y autenticación (para recursos protegidos).
+- Flags de características tanto para el servidor como para los clientes.
+- Integración para subir multimedia con [Cloudinary](https://cloudinary.com/).
 
-The following document contains all the technical high-level documentation of the project,
-including development setup, compilation, distribution, deployment, and other relevant
-information.
+El siguiente documento contiene toda la documentación técnica de alto nivel
+del proyecto, incluyendo la configuración de desarrollo, compilación,
+distribución, despliegue y otra información relevante.
 
-## Support and Contact
+## Soporte y Contacto
 
-Feel free to reach out to the team if you have any questions or need help with the project:
+No dudes en contactar al equipo si tienes preguntas o necesitas ayuda con el proyecto:
 
 - Paolo Flores [@paoloose](https://github.com/paoloose),
-[pflores.fisi22@gmail.com](mailto:paolo.flores2@unmsm.edu.pe)
+  [pflores.fisi22@gmail.com](mailto:paolo.flores2@unmsm.edu.pe)
 
 - Luis Calle [@luedu1103](https://github.com/luedu1103)
 
