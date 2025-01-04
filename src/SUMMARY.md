@@ -2,9 +2,9 @@
 
 # Summary
 
-[Introducción](./introduction.md)
+[Introduction](./introduction.md)
 
-[Descripción general](./overview.md)
+[Overview](./overview.md)
 
 # Components
 
